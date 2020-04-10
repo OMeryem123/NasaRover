@@ -66,7 +66,6 @@ public class RoverFileValidatorTest {
         ArrayList<String> robotsInstructions = new ArrayList<>();
         robotsInstructions.add("MLMLRLM");
         robotsInstructions.add("RLRLM");
-        Plateau plateau = new Plateau(5,5);
         //when
         Boolean valid = dataValidator.validRobotsInstructions(robotsInstructions);
         //then
@@ -78,7 +77,6 @@ public class RoverFileValidatorTest {
         ArrayList<String> robotsInstructions = new ArrayList<>();
         robotsInstructions.add("MLMLKRLM");
         robotsInstructions.add("");
-        Plateau plateau = new Plateau(5,5);
         //when
         Boolean valid = dataValidator.validRobotsInstructions(robotsInstructions);
         //then

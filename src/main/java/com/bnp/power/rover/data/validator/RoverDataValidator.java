@@ -5,6 +5,8 @@ import com.bnp.power.rover.model.Position;
 
 public class RoverDataValidator {
 
+    private RoverDataValidator(){}
+
     public static boolean validOrientation(String orientation) {
         switch (orientation) {
             case "N":
@@ -21,5 +23,6 @@ public class RoverDataValidator {
                 && position.getX() <= plateau.getWidth()
                 && position.getY() <= plateau.getLength();
     }
+
 
 }

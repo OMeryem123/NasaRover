@@ -21,9 +21,9 @@ public class RoverFileReader implements DataReader {
     private Path path;
     private DataValidator dataValidator;
 
-    private Plateau getPlateau() throws IOException, FileValidationException {
+    private Plateau getPlateau() throws IOException {
         String line = getLines().get(0);
-        if(!dataValidator.validPlateauDimension(line)) {
+        if (!dataValidator.validPlateauDimension(line)) {
             throw new FileValidationException("valid plan");
         }
         String[] dimension = line.split(" ");
@@ -42,17 +42,18 @@ public class RoverFileReader implements DataReader {
                 return Direction.EAST;
             case "W":
                 return Direction.WEST;
+            default:
+                return null;
         }
-        return null;
     }
 
-    public List<String> getInstructions() throws IOException,FileValidationException {
+    public List<String> getInstructions() throws IOException {
         List<String> lines = getLines();
         List<String> result = IntStream.range(2, lines.size())
                 .filter(lineNumber -> lineNumber % 2 == 0)
                 .mapToObj(lines::get)
                 .collect(Collectors.toList());
-        if(!dataValidator.validRobotsInstructions(result)) {
+        if (!dataValidator.validRobotsInstructions(result)) {
             throw new FileValidationException("invalid instructions");
         }
         return result;
@@ -82,10 +83,10 @@ public class RoverFileReader implements DataReader {
         return robotFactory.createRobot("rover", new Position(x, y), direction);
     }
 
-    public List<Robot> getRobots() throws IOException , FileValidationException{
+    public List<Robot> getRobots() throws IOException {
         List<String> robotLines = getRobotLines();
         Plateau plateau = getPlateau();
-        if(!dataValidator.validRobotsPosition(robotLines, plateau)) {
+        if (!dataValidator.validRobotsPosition(robotLines, plateau)) {
             throw new FileValidationException("invalid robots position");
         }
         List<Robot> robots = robotLines.stream()

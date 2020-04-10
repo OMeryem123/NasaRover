@@ -40,7 +40,6 @@ public class RoverFileReaderTest {
         try {
             //when
             List<String> instructions = dataReader.getInstructions();
-            System.out.println(instructions);
             //then
             assertEquals(2,instructions.size());
             assertEquals("LMLMLMLMM",instructions.get(0));
