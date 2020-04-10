@@ -1,0 +1,6 @@
+com\bnp\power\rover\command\TurnLeftCommandTest.class
+com\bnp\power\rover\factory\FactoryProviderTest.class
+com\bnp\power\rover\controller\RobotControllerTest.class
+com\bnp\power\rover\factory\RoverFactoryTest.class
+com\bnp\power\rover\command\TurnRightCommandTest.class
+com\bnp\power\rover\command\MoveCommandTest.class

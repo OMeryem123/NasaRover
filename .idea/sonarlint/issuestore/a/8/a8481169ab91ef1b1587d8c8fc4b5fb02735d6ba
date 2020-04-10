@@ -1,0 +1,17 @@
+
+R
+java:S1854'"5Remove this useless assignment to local variable "y".(®»—½8À›³–.
+`
+java:S2095A"EUse try-with-resources or close this "Scanner" in a "finally" clause.(‘½Îüÿÿÿÿ
+H
+java:S1481$"&Remove this unused "y" local variable.(¡Ê²‘şÿÿÿÿ8À›³–.
+Z
+java:S1128">Remove this unused import 'com.bnp.power.rover.model.Plateau'.(À”Ñ28šú²–.
+a
+java:S1128"?Remove this unused import 'com.bnp.power.rover.model.Position'.(Éš™¨üÿÿÿÿ8À›³–.
+:
+java:S1659$"Declare "y" on a separate line.(¡Ê²‘şÿÿÿÿ
+H
+java:S1481$"&Remove this unused "x" local variable.(¡Ê²‘şÿÿÿÿ8À›³–.
+Q
+java:S1854&"5Remove this useless assignment to local variable "x".(—‚E8À›³–.
