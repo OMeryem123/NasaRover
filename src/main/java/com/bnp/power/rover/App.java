@@ -9,9 +9,9 @@ import java.util.List;
 public class App {
     public static void main(String[] args) throws Exception{
         try {
-            //String fileName = args[0];
-           // String filePath = System.getProperty("user.dir")+"\\"+fileName;
-            RoverFileReader fileReader = new RoverFileReader("C:\\Users\\Meryem\\Desktop\\prf\\robotRover\\src\\main\\resources\\Input.txt");
+            String fileName = args[0];
+            String filePath = System.getProperty("user.dir")+"\\"+fileName;
+            RoverFileReader fileReader = new RoverFileReader(filePath);
             List<Robot> robots = fileReader.getRobots();
             List<String> instructions = fileReader.getInstructions();
             RobotController robotController = new RobotController(robots,instructions);

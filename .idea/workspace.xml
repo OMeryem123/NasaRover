@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da7187ce-ecc5-4fcf-8509-8e64be7e853a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/bnp/power/rover/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bnp/power/rover/App.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,12 +43,21 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor />
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/bnp/power/rover/App.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="12" column="75" lean-forward="true" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -99,10 +108,10 @@
         <option value="$PROJECT_DIR$/src/test/java/com/bnp/power/rover/data/reader/RoverFileReaderTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bnp/power/rover/factory/RoverFactoryTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/bnp/power/rover/controller/RobotControllerTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/bnp/power/rover/App.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bnp/power/rover/model/Direction.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bnp/power/rover/model/Robot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/bnp/power/rover/data/reader/RoverFileReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/bnp/power/rover/App.java" />
       </list>
     </option>
   </component>
@@ -441,7 +450,7 @@
       <workItem from="1586432316371" duration="11488000" />
       <workItem from="1586449088225" duration="30177000" />
       <workItem from="1586489225704" duration="3551000" />
-      <workItem from="1586509454680" duration="13189000" />
+      <workItem from="1586509454680" duration="13324000" />
     </task>
     <servers />
   </component>
@@ -478,17 +487,18 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13189000" />
+    <option name="totallyTimeSpent" value="13324000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" order="0" />
       <window_info id="Capture Tool" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Designer" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.25" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -496,7 +506,7 @@
       <window_info anchor="bottom" id="SonarLint" order="3" weight="0.32974428" />
       <window_info anchor="bottom" id="Database Changes" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="6" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Terminal" order="6" visible="true" weight="0.32974428" />
       <window_info anchor="bottom" id="Message" order="7" />
       <window_info anchor="bottom" id="Find" order="8" />
       <window_info anchor="bottom" id="Run" order="9" weight="0.32974428" />
@@ -713,13 +723,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/bnp/power/rover/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/bnp/power/rover/view/RobotView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -830,6 +833,13 @@
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/bnp/power/rover/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="12" column="75" lean-forward="true" selection-start-line="12" selection-start-column="75" selection-end-line="12" selection-end-column="75" />
         </state>
       </provider>
     </entry>
